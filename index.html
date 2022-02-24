@@ -5,9 +5,14 @@
 
 #fullLabel{
   width: 566px;
-  height: 377px;
+  height: 375px;
   padding:9px;
   display:block;
+}
+  
+  @media print {
+  #fullLabel 
+    {page-break-after: always;}
 }
 
 #fullLabel *{
